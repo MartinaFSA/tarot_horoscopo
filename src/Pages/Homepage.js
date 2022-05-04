@@ -9,7 +9,7 @@ function Homepage() {
         varius enim in eros elementum tristique. Duis cursus, mi quis viverra
         ornare, eros dolor interdum nulla, ut commodo
       </p>
-      <form>
+      <form className="forn-group">
         <div className="mb-5">
           <label className="form-label">Nombre Completo</label>
           <input type="text" className="form-control" id="nombre" />
