@@ -1,5 +1,6 @@
 import React, { useState} from "react";
 import Horoscopo from "./Horoscopo";
+import BtnShowhoroscopo from './btn-showhoroscopo.js'
 import horoscopoJson from "../Data/horoscopo.json";
 import '../Styles/form-horoscopo.css'
 
@@ -9,6 +10,7 @@ export default function FormularioUsuario() {
   const [fechaNacimiento, setFechaNacimiento] = useState("");
   const [email, setEmail] = useState("example@mail.com");
   const [signo, setSigno] = useState("");
+  const [showHoroscopo, setHoroscopo] = useState('cargar')
 
   const getNombre = (e) => {
     setNombre(e.target.value);
@@ -18,6 +20,7 @@ export default function FormularioUsuario() {
   };
   const getFechaNacimiento = (e) => {
     setFechaNacimiento(e.target.value);
+    getSigno()
   };
   const getEmail = (e) => {
     setEmail(e.target.value);
@@ -62,11 +65,12 @@ export default function FormularioUsuario() {
         <form className="forn-group">
           <div className="mb-3">
             <label className="form-label">Nombre o apodo</label>
-            <input required
+            <input
               type="text"
               className="form-control"
               id="nombre"
               onChange={getNombre}
+              required
             />
           </div>
           <div className="mb-3">
@@ -80,35 +84,40 @@ export default function FormularioUsuario() {
           </div>
           <div className="mb-3">
             <label className="form-label">Fecha Nacimiento</label>
-            <input required
+            <input
               onChange={getFechaNacimiento}
               type="date"
               min="1910-01-01"
               max="2020-12-31"
               className="form-control"
               id="fechaNacimiento"
+              required
             />
           </div>
 
           <div className="mb-3">
             <label className="form-label">Email</label>
-            <input required
+            <input
               onChange={getEmail}
               type="email"
               className="form-control"
               id="email"
+              required
             />
             <div id="emailHelp" className="mini-text">
               Luego de realizar la lectura le compartiremos los resultados en esta dirección de mail.
             </div>
           </div>
+          {showHoroscopo === 'cargar' && (
+            <BtnShowhoroscopo mostrarHoroscopo={() => setHoroscopo('mostrar-horoscopo') } />
+          )}
         </form>
-        
-        <button className="btn btn-primary" onClick={getSigno}>
-          Generar la lectura
-        </button>
       </section>
-      <Horoscopo nombre={nombre} genero={genero} fechaNacimiento={fechaNacimiento} email={email} signo={signo}></Horoscopo>
+      
+      
+      {showHoroscopo === 'mostrar-horoscopo' && 
+        <Horoscopo nombre={nombre} genero={genero} fechaNacimiento={fechaNacimiento} email={email} signo={signo}></Horoscopo>
+      }
     </div>
   );
 }

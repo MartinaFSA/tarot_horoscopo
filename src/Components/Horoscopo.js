@@ -8,16 +8,15 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
   const [dinero, setDinero] = useState("");
   const [personalidad, setPersonalidad] = useState("");
 
-  /*setTimePut( () => (alert("Leyendo los astros...");), 2000)*/
-    /*<Router>
-        <ul className="tm-nav-ul">
-            <li className="tm-nav-li"><Link to="/Resultados" className="tm-nav-link">Mis resultados</Link></li>
-        </ul>
-        <Routes>
-          <Route path="/Resultados" element={
-            }></Route>
-      </Routes>
-    </Router>
+  const resultadosHoroscopo = () => {
+    setTimeout(() => {
+    getDinero();
+    getSalud();
+    getAmor();
+    getSuerte();
+    document.getElementById('resultados').style.display = "block"}, 2000);
+  };
+    /*
     useEffect(() => {
       fetch("https://api.github.com/users/Livedetermined")
         .then((res) => res.json())
@@ -52,7 +51,10 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
 
   return (
     <div className="container">
-      <main>
+      <section>
+        <button onClick={resultadosHoroscopo}>Ver ahora</button>
+      </section>
+      <main id="resultados">
         <article>
           <img src="/img/horoscopo.jpg" alt="cartas de arcanos apoyadas sobre una mesa"></img>
           <div>
@@ -62,11 +64,6 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
         </article>
 
         <article>
-          <button onClick={getDinero}>MostrarDinero</button>
-          <button onClick={getSalud}>Mostrar Salud</button>
-          <button onClick={getAmor}>Mostrar amor</button>
-          <button onClick={getSuerte}>Mostrar suerte</button>
-
           <section>
             <p className="textoImportante">Datos user</p>
             <p>{email}, {genero}, {fechaNacimiento}</p>

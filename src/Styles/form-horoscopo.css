@@ -10,11 +10,13 @@
   flex-direction: column;
 }
 
+#resultados {
+  display: none;
+}
 main {
-  /* PONER ESTO CUANDO PUEDA DISPLAYEAR ONCLICK 
   position: absolute;
-  top: 0px;
-  left: 0px;*/
+  top: 60px;
+  left: 0px;
   padding: 20px 0px;
   background-color: white;
 } main > article:first-of-type {
