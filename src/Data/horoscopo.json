@@ -1,98 +1,217 @@
 [
     {
-      "nome": "Aries",
-      "caracteristica": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "signo": "Aries",
+      "personalidadFemenino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "21/03",
-        "20/04"
-      ]
+        "21/3",
+        "20/4"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Tauro",
-      "caracteristica": "Teimoso, o taurino e determinado e protetor. Precisa de seguranca e estabilidade para ser feliz,e conquista isso com muito trabalho e concentracao. Carinhoso, o taurino pode ser ciumento com quem ama.",
+      "signo": "Tauro",
+      "personalidadFemenino": "Teimoso, o taurino e determinado e protetor. Precisa de seguranca e estabilidade para ser feliz,e conquista isso com muito trabalho e concentracao. Carinhoso, o taurino pode ser ciumento com quem ama.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "21/04",
-        "21/05"
-      ]
+        "21/4",
+        "21/5"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Géminis",
-      "caracteristica": "Espontaneo e um pouco instavel, o geminiano e uma verdadeira caixinha de surpresas. Como e volatil,muitas vezes nem mesmo o geminiano se entende, mas o importante e que ele esta sempre de bom humor e em busca de aventuras.",
+      "signo": "Géminis",
+      "personalidadFemenino": "Espontaneo e um pouco instavel, o geminiano e uma verdadeira caixinha de surpresas. Como e volatil,muitas vezes nem mesmo o geminiano se entende, mas o importante e que ele esta sempre de bom humor e em busca de aventuras.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "22/05",
-        "21/06"
-      ]
+        "22/5",
+        "21/6"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Cáncer",
-      "caracteristica": "Familia e a palavra-chave para o canceriano. Tranquilo e emotivo, gosta de ficar em casa, fazerprogramas com quem ama e curtir momentos com os parentes. Curioso, faz amizade com facilidade, mas pode ser um pouco sensivel.",
+      "signo": "Cáncer",
+      "personalidadFemenino": "Familia e a palavra-chave para o canceriano. Tranquilo e emotivo, gosta de ficar em casa, fazerprogramas com quem ama e curtir momentos com os parentes. Curioso, faz amizade com facilidade, mas pode ser um pouco sensivel.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "21/06",
-        "23/07"
-      ]
+        "21/6",
+        "23/7"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Leao",
-      "caracteristica": "Este e signo que veio para brilhar. O leonino gosta de chamar a atencao e ser o centro do mundo,mas tambem e muito amavel e leal. Simpatico e comunicativo, o nativo de leao pode ser um pouco ciumento e inseguro.",
+      "signo": "Leao",
+      "personalidadFemenino": "Este e signo que veio para brilhar. O leonino gosta de chamar a atencao e ser o centro do mundo,mas tambem e muito amavel e leal. Simpatico e comunicativo, o nativo de leao pode ser um pouco ciumento e inseguro.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "24/07",
-        "23/08"
-      ]
+        "24/7",
+        "23/8"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Virgem",
-      "caracteristica": "Perspicaz e inteligente, o virginiano esta acostumado com o sucesso, por isso se cobra muito assim como aos demais. Por isso, pode ser um pouco rigido e magoar quem ama. Timido, prefere programastranquilos a grandes eventos.",
+      "signo": "Virgem",
+      "personalidadFemenino": "Perspicaz e inteligente, o virginiano esta acostumado com o sucesso, por isso se cobra muito assim como aos demais. Por isso, pode ser um pouco rigido e magoar quem ama. Timido, prefere programastranquilos a grandes eventos.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "24/08",
-        "23/09"
-      ]
+        "24/8",
+        "23/9"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Libra",
-      "caracteristica": "O libriano gosta do que e belo e harmonioso. Nao gosta de conflitos e por isso tentaser imparcial em debates e brigas. Indeciso, pode demorar muito para escolher coisas simples, como oque comer ou vestir. Bom gosto define este signo.",
+      "signo": "Libra",
+      "personalidadFemenino": "O libriano gosta do que e belo e harmonioso. Nao gosta de conflitos e por isso tentaser imparcial em debates e brigas. Indeciso, pode demorar muito para escolher coisas simples, como oque comer ou vestir. Bom gosto define este signo.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "24/09",
+        "24/9",
         "23/10"
-      ]
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Escorpiao",
-      "caracteristica": "Determinado, o escorpiano vai ate o fim para conquistar os seus objetivos. Sensual e romantico,gosta de estar em relacionamentos, mas pode ser desconfiado enquanto nao se sentir seguro com a pessoa.",
+      "signo": "Escorpiao",
+      "personalidadFemenino": "Determinado, o escorpiano vai ate o fim para conquistar os seus objetivos. Sensual e romantico,gosta de estar em relacionamentos, mas pode ser desconfiado enquanto nao se sentir seguro com a pessoa.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
         "24/10",
         "22/11"
-      ]
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Sagitario",
-      "caracteristica": "Um signo de bem com a vida, que esta sempre em busca de acao e que vive rodeado de amigos. Este e o signo de sagitario, que e sonhador e adora conhecer pessoas e lugares novos.",
+      "signo": "Sagitario",
+      "personalidadFemenino": "Um signo de bem com a vida, que esta sempre em busca de acao e que vive rodeado de amigos. Este e o signo de sagitario, que e sonhador e adora conhecer pessoas e lugares novos.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
         "23/11",
         "21/12"
-      ]
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Capricornio",
-      "caracteristica": "Trabalhador, timido e educado, o capricornio pode passar uma imagem de fechado e ate mesmoantipatico, mas e que ele e precisa confiar em quem esta ao seu lado para se abrir totalmente. Com paciencia,ele se mostra um amigo leal e um companheiro fiel.",
+      "signo": "Capricornio",
+      "personalidadFemenino": "Trabalhador, timido e educado, o capricornio pode passar uma imagem de fechado e ate mesmoantipatico, mas e que ele e precisa confiar em quem esta ao seu lado para se abrir totalmente. Com paciencia,ele se mostra um amigo leal e um companheiro fiel.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
         "22/12",
-        "20/01"
-      ]
+        "20/1"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+
     {
-      "nome": "Aquario",
-      "caracteristica": "Independente, o aquariano preza muito por sua liberdade. Gosta de viajar, sair econhecer pessoas novas. Tem uma mente aberta e gosta de tudo o que e inovador e moderno, desde roupas etecnologia, ate mesmo atitudes comportamentais.",
+      "signo": "Aquario",
+      "personalidadFemenino": "Independente, o aquariano preza muito por sua liberdade. Gosta de viajar, sair econhecer pessoas novas. Tem uma mente aberta e gosta de tudo o que e inovador e moderno, desde roupas etecnologia, ate mesmo atitudes comportamentais.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "21/01",
-        "19/02"
-      ]
+        "21/1",
+        "19/2"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     },
+    
     {
-      "nome": "Peixes",
-      "caracteristica": "Este e o signo mais romantico do zodiaco. Sonhador e carinhoso, ele esta semprepreocupado com o bem estar dos outros. Sensivel e carinhoso, acredita em contos de fadas e acha quetodos merecem um final feliz.",
+      "signo": "Peixes",
+      "personalidadFemenino": "Este e o signo mais romantico do zodiaco. Sonhador e carinhoso, ele esta semprepreocupado com o bem estar dos outros. Sensivel e carinhoso, acredita em contos de fadas e acha quetodos merecem um final feliz.",
+      "personalidadMasculino": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "personalidadNoBinario": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
       "periodo": [
-        "20/02",
-        "20/03"
-      ]
+        "20/2",
+        "20/3"
+      ],
+      "amor": "Te va a ir bien",
+      "dinero": "Invertí en crypto monedas para hacerte millonario",
+      "salud": "Cuidate de las enfermedades, vas a estar susceptible a contraer gripe",
+      "suerte": "Tendrás buena suerte en lo monetario y en cuanto a las oportunidades laborales",
+      "pasado": "Fuiste engañado muchas veces pero seguís cayendo en las mismas farsas",
+      "presente": "A partir de ahora serás más precavido a la hora de tomar decisiones",
+      "futuro": "Vas a ser exitoso, tus relaciones sociales actuales perecerán pero crearás nuevos lazos más fuertes."
     }
   ]

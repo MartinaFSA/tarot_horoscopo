@@ -1,0 +1,51 @@
+#formUsuario {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+#formUsuario > section:nth-of-type(2) > form > div {
+    margin: 20px 0px;
+} #formUsuario > section:nth-of-type(2) > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  /* PONER ESTO CUANDO PUEDA DISPLAYEAR ONCLICK 
+  position: absolute;
+  top: 0px;
+  left: 0px;*/
+  padding: 20px 0px;
+  background-color: white;
+} main > article:first-of-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+} main > article:first-of-type > img{
+  width: 45%;
+  margin-right: 15px;
+} #tiradaCartas {
+  margin-bottom: 40px;
+} #tiradaCartas > section:first-of-type > img {
+  width: 90%;
+  max-width: 500px;
+} #tiradaCartas > section:first-of-type {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0px;
+} #tiradaCartas > section:nth-of-type(2) > div:nth-of-type(2) {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 20px 0px;
+} #tiradaCartas > section:nth-of-type(2) > div:nth-of-type(2) > div {
+  width: 33%;
+  background-color: rgb(31, 34, 110);
+}

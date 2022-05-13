@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
+import Horoscopo from "./Horoscopo";
+import horoscopoJson from "../Data/horoscopo.json";
+import '../Styles/form-horoscopo.css'
 
-function FormularioUsuario(params) {
-  const [nombre, setNombre] = useState("");
-  const [genero, setGenero] = useState("");
+export default function FormularioUsuario() {
+  const [nombre, setNombre] = useState("Nombre");
+  const [genero, setGenero] = useState("unselected");
   const [fechaNacimiento, setFechaNacimiento] = useState("");
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("example@mail.com");
+  const [signo, setSigno] = useState("");
 
   const getNombre = (e) => {
     setNombre(e.target.value);
@@ -13,80 +17,98 @@ function FormularioUsuario(params) {
     setGenero(e.target.value);
   };
   const getFechaNacimiento = (e) => {
-    setFechaNacimiento(new Date(e.target.value));
+    setFechaNacimiento(e.target.value);
   };
   const getEmail = (e) => {
     setEmail(e.target.value);
   };
-  const enviarFormulario = (e) => {
-    e.preventDefault();
-    console.log(nombre, genero, fechaNacimiento, email);
+
+  function getSigno() {
+    console.log('separador');
+
+    const fecha = new Date(fechaNacimiento);
+    const diaUser = fecha.getDate();
+    const mesUser = fecha.getMonth() + 1;
+    console.log('user nació en ' + diaUser + ' ' + mesUser);
+    const signoPersona = [];
+
+    horoscopoJson.map(horoscopo => {
+      const signoInicia = horoscopo.periodo[0].split("/");
+      const mesInicio = signoInicia[1];
+      const diaInicio = signoInicia[0];
+      const signoTermina = horoscopo.periodo[1].split("/");
+      const mesTermina = signoTermina[1];
+      const diaTermina = signoTermina[0];
+    
+      if (diaInicio <= diaUser && diaTermina >= diaUser && (mesInicio == mesUser) || (mesTermina == mesUser) ) {
+        signoPersona.push(horoscopo.signo);
+      }
+      
+    });
+    const signoPersonaString = signoPersona.toString();
+
+    console.log('Tu signo solar es: ' + signoPersonaString);
+    setSigno(signoPersonaString);
   };
 
   return (
-    <div className="container">
-      <h1>Luna Mágica Servicio de Astrología y Adivinaciones varias</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-        ornare, eros dolor interdum nulla, ut commodo
-      </p>
-      <form className="forn-group" onSubmit={enviarFormulario}>
-        <div className="mb-5">
-          <label className="form-label">Nombre Completo</label>
-          <input
-            type="text"
-            className="form-control"
-            id="nombre"
-            onChange={getNombre}
-          />
-        </div>
-        <label className="form-label">Género</label>
-        <input
-          onChange={getGenero}
-          className="form-control"
-          list="genero"
-          id="generoLista"
-          placeholder="Elija su género..."
-        ></input>
-        <div className="mb-3">
-          <datalist id="genero">
-            <option value="Femenino" />
-            <option value="Masculino" />
-            <option value="Otro" />
-          </datalist>
-        </div>
-
-        <div className="mb-3">
-          <label className="form-label">Email</label>
-          <input
-            onChange={getEmail}
-            type="email"
-            className="form-control"
-            id="email"
-          />
-          <div id="emailHelp" className="form-text">
-            Nunca compartiremos su email.
+    <div className="container" id="formUsuario">
+      <section className="encabezado">
+        <p>Tomá decisiones en base a lo que los astros te tienen preparado</p>
+      </section>
+      
+      <section>
+        <p className="textoImportante">Contanos algunas cosas sobre vos para que podamos consultar tu destino astrológico en los campos del amor, el dinero, la salud y la suerte.</p>
+        <form className="forn-group">
+          <div className="mb-3">
+            <label className="form-label">Nombre o apodo</label>
+            <input required
+              type="text"
+              className="form-control"
+              id="nombre"
+              onChange={getNombre}
+            />
           </div>
-        </div>
-        <div className="mb-3">
-          <label className="form-label">Fecha Nacimiento</label>
-          <input
-            onChange={getFechaNacimiento}
-            type="date"
-            min="1910-01-01"
-            max="2010-12-31"
-            className="form-control"
-            id="fechaNacimiento"
-          />
-        </div>
+          <div className="mb-3">
+            <label className="form-label">Género</label>
+            <select class="form-control" onChange={getGenero} required>
+              <option selected disabled hidden>Seleccione su género</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Masculino">Masculino</option>
+              <option value="No binario">No binario</option>
+            </select>
+          </div>
+          <div className="mb-3">
+            <label className="form-label">Fecha Nacimiento</label>
+            <input required
+              onChange={getFechaNacimiento}
+              type="date"
+              min="1910-01-01"
+              max="2020-12-31"
+              className="form-control"
+              id="fechaNacimiento"
+            />
+          </div>
 
-        <button type="submit" className="btn btn-primary">
-          Generar la Magia
+          <div className="mb-3">
+            <label className="form-label">Email</label>
+            <input required
+              onChange={getEmail}
+              type="email"
+              className="form-control"
+              id="email"
+            />
+            <div id="emailHelp" className="mini-text">
+              Luego de realizar la lectura le compartiremos los resultados en esta dirección de mail.
+            </div>
+          </div>
+        </form>
+        
+        <button className="btn btn-primary" onClick={getSigno}>
+          Generar la lectura
         </button>
-      </form>
+      </section>
+      <Horoscopo nombre={nombre} genero={genero} fechaNacimiento={fechaNacimiento} email={email} signo={signo}></Horoscopo>
     </div>
   );
 }
-
-export default FormularioUsuario;
