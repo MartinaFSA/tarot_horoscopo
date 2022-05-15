@@ -12,10 +12,12 @@
 }.mini-text {
   font-size: 0.8rem;
   color: #121212a5;
+} .underline {
+  text-decoration: underline;
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   margin: 0px;
   padding: 20px 0px 0px 0px;
   display: flex;
@@ -69,6 +71,35 @@ main, header > section:not(:first-of-type) {
   background: rgb(0,0,0);
   background: linear-gradient(168deg, rgba(0,0,0,0.577468487394958) 0%, rgba(25,25,25,1) 100%);
 }
+#footerKinda {
+  width: 100%;
+  background-color: rgb(191, 191, 191);
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #bfbfbf #ffffff;
+  }
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
