@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/tarot_horoscopo/static/css/main.0c970cea.css",
-    "main.js": "/tarot_horoscopo/static/js/main.23a8f2d7.js",
+    "main.css": "/tarot_horoscopo/static/css/main.03431d9c.css",
+    "main.js": "/tarot_horoscopo/static/js/main.1ffe5e30.js",
     "static/js/787.f0150ffd.chunk.js": "/tarot_horoscopo/static/js/787.f0150ffd.chunk.js",
-    "static/media/card_bkg.jpg": "/tarot_horoscopo/static/media/card_bkg.960ce929abf6636991e0.jpg",
-    "static/media/twohands.jpg": "/tarot_horoscopo/static/media/twohands.cad2dfe3f03447615c81.jpg",
     "index.html": "/tarot_horoscopo/index.html",
-    "main.0c970cea.css.map": "/tarot_horoscopo/static/css/main.0c970cea.css.map",
-    "main.23a8f2d7.js.map": "/tarot_horoscopo/static/js/main.23a8f2d7.js.map",
+    "main.03431d9c.css.map": "/tarot_horoscopo/static/css/main.03431d9c.css.map",
+    "main.1ffe5e30.js.map": "/tarot_horoscopo/static/js/main.1ffe5e30.js.map",
     "787.f0150ffd.chunk.js.map": "/tarot_horoscopo/static/js/787.f0150ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c970cea.css",
-    "static/js/main.23a8f2d7.js"
+    "static/css/main.03431d9c.css",
+    "static/js/main.1ffe5e30.js"
   ]
 }
