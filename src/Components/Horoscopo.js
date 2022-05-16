@@ -204,12 +204,12 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
                   </div>
 
                   <div>
-                  <img src='img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
+                  <img src='../../public/img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
                   <p className="textoImportante">Presente</p>
                   </div>
 
                   <div>
-                  <img src='./img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
+                  <img src='../../img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
                   <p className="textoImportante">Futuro</p>
                   </div>
               </div>
