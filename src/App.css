@@ -45,7 +45,7 @@ main, header > section:not(:first-of-type) {
   font-weight: 400;
   padding: 20px 0px;
 } header > section:nth-of-type(2) > div:first-of-type {
-  background-image: url("https://github.com/MartinaFSA/tarot_horoscopo/blob/main/public/img/card_bkg.jpg");
+  background-image: url("../public/img/card_bkg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
