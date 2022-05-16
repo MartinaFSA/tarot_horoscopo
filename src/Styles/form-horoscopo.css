@@ -54,7 +54,7 @@ main {
   text-align: center;
 }
 #overlay > div > button{
-  background-image: url('../../public/img/twohands.jpg');
+  background-image: url('https://github.com/MartinaFSA/tarot_horoscopo/blob/main/public/img/twohands.jpg');
   background-size: cover;
   background-position: center;
   width: 80%;

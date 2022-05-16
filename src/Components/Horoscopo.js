@@ -154,7 +154,7 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
       <div className="container" id="contenedorResultados">
         <main id="resultados">
           <article>
-            <img src="../img/horoscopo.jpg" alt="cartas de arcanos apoyadas sobre una mesa"></img>
+            <img src="https://github.com/MartinaFSA/tarot_horoscopo/blob/main/public/img/horoscopo.jpg" alt="cartas de arcanos apoyadas sobre una mesa"></img>
             <div>
               <p className="textoImportante">Ya generamos tu pronóstico para este mes!</p>
               <p> {nombre}, los astros dicen que este mes te deparará cosas muy especiales...</p>
@@ -199,17 +199,17 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
             <section>
               <div>
                   <div>
-                  <img src='img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
+                  <img src='https://github.com/MartinaFSA/tarot_horoscopo/blob/main/public/img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
                   <p className="textoImportante">Pasado</p>
                   </div>
 
                   <div>
-                  <img src='../../public/img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
+                  <img src='https://github.com/MartinaFSA/tarot_horoscopo/blob/main/public/img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
                   <p className="textoImportante">Presente</p>
                   </div>
 
                   <div>
-                  <img src='../../img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
+                  <img src='https://github.com/MartinaFSA/tarot_horoscopo/blob/main/public/img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
                   <p className="textoImportante">Futuro</p>
                   </div>
               </div>
