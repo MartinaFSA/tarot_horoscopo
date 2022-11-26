@@ -236,7 +236,7 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
           </article>
           <button className="btn btn-primary" id="botonDescargar" onClick={downloadResults}>Descargar resultados</button>
           <section id="footerKinda">
-            <p>Martina Fernández Suárez Anzorena - Comisión 22014 del curso de React. Codo a Codo 2022.</p>
+            <p>Martina Fernández Suárez Anzorena</p>
           </section>
         </main>
       </div>
