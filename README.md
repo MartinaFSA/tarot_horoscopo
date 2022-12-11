@@ -1,1 +1,1 @@
-### Mirá y usá esta página en [mi link de Github Pages](https://martinafsa.github.io/tarot_horoscopo/)
+### Probá este proyecto haciendo [click acá](https://martinafsa.github.io/tarot_horoscopo/)
