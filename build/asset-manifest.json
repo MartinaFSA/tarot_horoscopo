@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tarot_horoscopo/static/css/main.7ce276c9.css",
+    "main.js": "/tarot_horoscopo/static/js/main.a3adccca.js",
+    "static/js/787.f0150ffd.chunk.js": "/tarot_horoscopo/static/js/787.f0150ffd.chunk.js",
+    "static/media/card_bkg.jpg": "/tarot_horoscopo/static/media/card_bkg.960ce929abf6636991e0.jpg",
+    "static/media/twohands.jpg": "/tarot_horoscopo/static/media/twohands.cad2dfe3f03447615c81.jpg",
+    "index.html": "/tarot_horoscopo/index.html",
+    "main.7ce276c9.css.map": "/tarot_horoscopo/static/css/main.7ce276c9.css.map",
+    "main.a3adccca.js.map": "/tarot_horoscopo/static/js/main.a3adccca.js.map",
+    "787.f0150ffd.chunk.js.map": "/tarot_horoscopo/static/js/787.f0150ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ce276c9.css",
+    "static/js/main.a3adccca.js"
+  ]
+}
