@@ -16,6 +16,7 @@ export default function FormularioUsuario() {
     setNombre(e.target.value);
   };
   const getGenero = (e) => {
+    console.log(e.target.value);
     setGenero(e.target.value);
   };
   const getFechaNacimiento = (e) => {
@@ -27,8 +28,6 @@ export default function FormularioUsuario() {
   };
 
   function getSigno(a) {
-    console.log('separador');
-
     const fecha = new Date(a);
 
     const diaUser = fecha.getDate();
@@ -75,8 +74,8 @@ export default function FormularioUsuario() {
               />
             </div>
             <div className="mb-3">
-              <label className="form-label">Género</label>
-              <select className="form-control" onChange={getGenero} required name="genero">
+              <label className="form-label">Género (opcional)</label>
+              <select className="form-control" onChange={getGenero} name="genero">
                 <option selected disabled hidden>Seleccione su género</option>
                 <option value="Femenino">Femenino</option>
                 <option value="Masculino">Masculino</option>
@@ -97,7 +96,7 @@ export default function FormularioUsuario() {
               />
             </div>
             <div className="mb-3">
-              <label className="form-label">Email</label>
+              <label className="form-label">Email (opcional)</label>
               <input
                 onChange={getEmail}
                 type="email"

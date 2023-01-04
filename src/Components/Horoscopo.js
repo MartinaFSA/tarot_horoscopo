@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import tiradaCartas from './tiradaCartas';
 import horoscopoJson from "../Data/horoscopo.json";
 import html2canvas from 'html2canvas';
 
@@ -189,55 +190,18 @@ export default function Horoscopo({nombre, genero, fechaNacimiento, email, signo
           <article>
             <section>
               <p className="encabezado">Tu número de la suerte es el {numSuerte}</p>
-              <p className="textoImportante">Según la numerología, este número se puede encontrar al sumar los dígitos de la fecha de nacimiento de una persona: el día, el número de mes y el año.</p>
+              <p>Según la numerología, este número se puede encontrar al sumar los dígitos de la fecha de nacimiento de una persona: el día, el número de mes y el año.</p>
             </section>
           </article>
-          <article id="tiradaCartas">
-            <section>
-              <p className="encabezado">Tirada de cartas</p>
-            </section>
-            <section>
-              <div>
-                  <div>
-                  <img src='./img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
-                  <p className="textoImportante">Pasado</p>
-                  </div>
 
-                  <div>
-                  <img src='./img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
-                  <p className="textoImportante">Presente</p>
-                  </div>
+          {primeraCartaNombre != '' ? <tiradaCartas 
+            primeraCartaNombre={primeraCartaNombre} primeraCartaPosicion={primeraCartaPosicion} primeraCartaDescripcion={primeraCartaDescripcion} 
+            segundaCartaNombre={segundaCartaNombre} segundaCartaPosicion={segundaCartaPosicion} segundaCartaDescripcion={segundaCartaDescripcion} 
+            terceraCartaNombre={terceraCartaNombre} terceraCartaPosicion={terceraCartaPosicion} terceraCartaDescripcion={terceraCartaDescripcion}
+          ></tiradaCartas> : false}
 
-                  <div>
-                  <img src='./img/hand.jpg' alt="ilustración de una mano con un ojo entreabierto en el centro"></img>
-                  <p className="textoImportante">Futuro</p>
-                  </div>
-              </div>
-
-              <div>
-                  <div>
-                    <p className="textoImportante underline">Pasado</p>
-                    <p>{primeraCartaNombre} en posición {primeraCartaPosicion}</p>
-                    <p>Descripción de tu pasado según este arcano: {primeraCartaDescripcion}</p>
-                  </div>
-
-                  <div>
-                    <p className="textoImportante underline">Presente</p>
-                    <p>{segundaCartaNombre} en posición {primeraCartaPosicion}</p>
-                    <p>Descripción de tu presente según este arcano: {segundaCartaDescripcion}</p>
-                  </div>
-                  <div>
-                    <p className="textoImportante underline">Futuro</p>
-                    <p>{terceraCartaNombre} en posición {terceraCartaPosicion}</p>
-                    <p>Descripción de tu futuro según este arcano: {terceraCartaDescripcion}</p>
-                  </div>              
-              </div>
-            </section>
-          </article>
           <button className="btn btn-primary" id="botonDescargar" onClick={downloadResults}>Descargar resultados</button>
-          <section id="footerKinda">
-            <p>Martina Fernández Suárez Anzorena</p>
-          </section>
+
         </main>
       </div>
     </div>

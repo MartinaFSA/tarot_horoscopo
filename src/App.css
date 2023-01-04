@@ -71,18 +71,53 @@ main, header > section:not(:first-of-type) {
   background: rgb(0,0,0);
   background: linear-gradient(168deg, rgba(0,0,0,0.577468487394958) 0%, rgba(25,25,25,1) 100%);
 }
-#footerKinda {
+
+
+/*Footer*/
+footer {
   width: 100%;
-  background-color: rgb(191, 191, 191);
-  height: 50px;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  margin-top: 100px;
+  padding: 40px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.27);
+  text-align: center;
+} footer p:first-of-type {
+  font-size: 1.4rem;
+  font-weight: 400;
 }
+footer > button > a:hover {
+  color: unset;
+  text-decoration: underline;
+} footer > button {
+  border: 1px solid rgb(26, 26, 26);
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  margin: 20px 0px;
+  text-align: center;
+} footer > button > a {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+} footer section:first-of-type p {
+  padding: 20px 0px;
+}
+footer .socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+footer .socialLinks > div:not(:last-of-type){
+  margin-right: 10px;
+} footer .socialLinks > div:hover {
+  animation-direction:alternate;
+  transform: translateY(-5px);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+} footer .socialLinks > div {        
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
   * {
     scrollbar-width: auto;
     scrollbar-color: #bfbfbf #ffffff;
